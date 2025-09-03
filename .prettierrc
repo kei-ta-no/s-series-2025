@@ -1,0 +1,25 @@
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"bracketSpacing": true,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"arrowParens": "always",
+	"htmlWhitespaceSensitivity": "css",
+	"printWidth": 800,
+	"overrides": [
+		{
+			"files": "*.md",
+			"options": {
+				"tabWidth": 4,
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.html",
+			"options": {
+				"printWidth": 500
+			}
+		}
+	]
+}

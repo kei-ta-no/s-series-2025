@@ -1,0 +1,1785 @@
+#kv .flexWrap {
+  display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .flexWrap {
+    display: block;
+  }
+}
+
+#kv .leftContentWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 51.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .leftContentWrap {
+    display: block;
+    padding-top: 3.8rem;
+    width: 100%;
+  }
+}
+
+#kv .leftContentWrap .logoWrap {
+  margin-bottom: 5.1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #kv .leftContentWrap .logoWrap {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .leftContentWrap .logoWrap {
+    display: none;
+  }
+}
+
+#kv .leftContentWrap .logoWrap .logo {
+  width: 18.9vw;
+  max-width: 36.3rem;
+}
+
+#kv .leftContentWrap .logoWrap .logo img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .leftContentWrap .titleWrap {
+    width: 100%;
+  }
+}
+
+#kv .leftContentWrap .titleWrap .title {
+  width: 45rem;
+}
+
+@media only screen and (min-width: 1280px) {
+  #kv .leftContentWrap .titleWrap .title {
+    width: 66rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #kv .leftContentWrap .titleWrap .title {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .leftContentWrap .titleWrap .title {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+#kv .leftContentWrap .titleWrap .title img {
+  width: 100%;
+}
+
+#kv .rightContentWrap {
+  position: relative;
+  width: 48.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .rightContentWrap {
+    width: 100%;
+  }
+}
+
+#kv .rightContentWrap .imageWrap {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+}
+
+#kv .rightContentWrap .imageWrap .image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .rightContentWrap .imageWrap .image {
+    height: 95.83vw;
+    overflow: hidden;
+  }
+}
+
+#kv .rightContentWrap .imageWrap .image img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .rightContentWrap .imageWrap .image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+#kv .rightContentWrap .bgWrap {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ede5d4;
+}
+
+@media only screen and (max-width: 767px) {
+  #kv .rightContentWrap .bgWrap {
+    height: 50.4vw;
+  }
+}
+
+#about .sectionTitleWrap {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #about .sectionTitleWrap {
+    text-align: left;
+  }
+}
+
+#about .textWrap {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #about .textWrap {
+    text-align: left;
+  }
+}
+
+#about .textWrap .text {
+  line-height: 1.8;
+}
+
+#room {
+  position: relative;
+}
+
+#room .bgItemWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#room .bgItemWrap .bgItem {
+  position: absolute;
+}
+
+#room .bgItemWrap .bgItem .image {
+  width: 28.49vw;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #room .bgItemWrap .bgItem .image {
+    width: 45.57vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem .image {
+    width: 78.8vw;
+  }
+}
+
+#room .bgItemWrap .bgItem .image img {
+  width: 100%;
+}
+
+#room .bgItemWrap .bgItem .bgBox {
+  background-color: #ede5d4;
+}
+
+#room .bgItemWrap .bgItem#roomBgItem01 {
+  top: 19.5%;
+  left: -3.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem01 {
+    top: 10.5%;
+    left: -34%;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem02 {
+  top: 42%;
+  right: -9.8%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem02 {
+    top: 29.5%;
+    right: -33%;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem03 {
+  z-index: 1;
+  bottom: 20.8%;
+  left: 2.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem03 {
+    left: -34%;
+    bottom: 19%;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem04 {
+  bottom: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem04 {
+    bottom: 30%;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem04 .bgBox {
+  width: 21.87vw;
+  max-width: 42rem;
+  height: 69.27vw;
+  max-height: 133rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem04 .bgBox {
+    width: 32vw;
+    height: 118vw;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem05 {
+  bottom: 17.5rem;
+  right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem05 {
+    bottom: 12%;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem05 .bgBox {
+  width: 39.63vw;
+  max-width: 76.1rem;
+  height: 29.58vw;
+  max-height: 56.8rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem05 .bgBox {
+    width: 34.71vw;
+    height: 108vw;
+  }
+}
+
+#room .bgItemWrap .bgItem#roomBgItem06 {
+  bottom: -8.7%;
+  right: -14.42%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .bgItemWrap .bgItem#roomBgItem06 {
+    display: none;
+  }
+}
+
+#room > .inner {
+  z-index: 5;
+  position: relative;
+}
+
+#room .imageListWrap {
+  padding-bottom: 8.88%;
+}
+
+#room .imageListWrap .imageList {
+  position: relative;
+}
+
+#room .imageListWrap .imageList .imageWrap .image {
+  width: 100%;
+}
+
+#room .imageListWrap .imageList .imageWrap .image img {
+  width: 100%;
+}
+
+#room .imageListWrap .imageList .imageWrap .caption {
+  position: relative;
+  margin-top: 2rem;
+  padding-left: 8.3rem;
+  font-size: 1.8rem;
+  font-family: "Hannari", serif;
+  color: #707070;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap .caption {
+    padding-left: 4.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap .caption::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 6.7rem;
+  height: 1px;
+  background-color: #707070;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap .caption::before {
+    width: 3.5rem;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor01 {
+  width: 49.63%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor01 {
+    width: 81.3%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor02 {
+  z-index: 2;
+  position: relative;
+  float: right;
+  margin-top: -32.44%;
+  width: 37.36%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor02 {
+    margin-top: 11.3%;
+    margin-right: -5.5%;
+    width: 59.64%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor03 {
+  float: right;
+  margin-top: 6.3%;
+  margin-right: -6.5rem;
+  width: 46.22%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor03 {
+    float: none;
+    margin-top: 30rem;
+    margin-right: 0;
+    width: 38.87%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor04 {
+  z-index: 2;
+  position: relative;
+  top: -4rem;
+  width: 37.36%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor04 {
+    top: 6.3rem;
+    width: 61.72%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor05 {
+  float: right;
+  position: relative;
+  margin-top: -26%;
+  width: 49.63%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor05 {
+    margin-top: 35%;
+    margin-bottom: 14.6rem;
+    width: 89.31%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor05 .caption {
+  position: absolute;
+  top: 10.5rem;
+  left: -14.5rem;
+  margin: 0;
+  transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #room .imageListWrap .imageList .imageWrap#floor05 .caption {
+    left: -13.3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor05 .caption {
+    top: 8.2rem;
+    left: -10.5rem;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor06 {
+  margin-top: 22.22%;
+  width: 55.92%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor06 {
+    margin-top: 0;
+    margin-left: -5.5%;
+    width: 105.5%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#floor07 {
+  z-index: 2;
+  margin-top: -2.22%;
+  margin-left: 7rem;
+  width: 22.81%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#floor07 {
+    margin-top: -9%;
+    margin-left: 0;
+    width: 40.95%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#equipment01 {
+  width: 55.85%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#equipment01 {
+    margin-right: -5.5%;
+    width: 105.5%;
+  }
+}
+
+#room .imageListWrap .imageList .imageWrap#equipment02 {
+  position: absolute;
+  bottom: 0;
+  left: 43.5rem;
+  width: 22.81%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .imageWrap#equipment02 {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-top: -9%;
+    margin-left: auto;
+    width: 40.95%;
+  }
+}
+
+#room .imageListWrap .imageList .descriptionWrap {
+  padding: 5.5rem 3rem 7.5rem;
+  width: 44.15%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 1280px) {
+  #room .imageListWrap .imageList .descriptionWrap {
+    padding: 5.5rem 4vw 7.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #room .imageListWrap .imageList .descriptionWrap {
+    padding: 3rem 3rem 5.5rem;
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList .descriptionWrap {
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+#room .imageListWrap .imageList .descriptionWrap .descriptionInner .copyWrap {
+  margin-top: 3rem;
+}
+
+#room .imageListWrap .imageList .descriptionWrap .descriptionInner .copyWrap .copy {
+  font-size: 3rem;
+  font-family: "Hannari", serif;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width: 1280px) {
+  #room .imageListWrap .imageList .descriptionWrap .descriptionInner .copyWrap .copy {
+    font-size: 3.6rem;
+  }
+}
+
+#room .imageListWrap .imageList .descriptionWrap .descriptionInner .btnWrap {
+  margin-top: 4rem;
+}
+
+#room .imageListWrap .imageList .descriptionWrap .modalWrap {
+  display: none;
+}
+
+#room .imageListWrap .imageList#floor .descriptionWrap {
+  float: right;
+  margin-top: -33%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #room .imageListWrap .imageList#floor .descriptionWrap {
+    z-index: 2;
+    position: relative;
+    margin-top: -40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList#floor .descriptionWrap {
+    float: none;
+    margin-top: 7%;
+    margin-left: 15.5%;
+    width: 70%;
+  }
+}
+
+#room .imageListWrap .imageList#equipment {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-top: 15rem;
+  padding-bottom: 18.15%;
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList#equipment {
+    display: block;
+    margin-top: 8.8rem;
+  }
+}
+
+#room .imageListWrap .imageList#equipment .descriptionWrap {
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #room .imageListWrap .imageList#equipment .descriptionWrap {
+    position: absolute;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #room .imageListWrap .imageList#equipment .descriptionWrap {
+    width: 100%;
+  }
+}
+
+.modaal-wrapper .modalInner .titleWrap .typeWrap {
+  margin-bottom: 2rem;
+}
+
+.modaal-wrapper .modalInner .titleWrap .title {
+  font-size: 4rem;
+  font-family: "Hannnari", serif;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 1023px) {
+  .modaal-wrapper .modalInner .titleWrap .title {
+    font-size: 2.8rem;
+  }
+}
+
+.modaal-wrapper .modalInner .madoriImageWrap {
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .modaal-wrapper .modalInner .madoriImageWrap {
+    margin-top: -3rem;
+  }
+}
+
+.modaal-wrapper .modalInner .madoriImageWrap .madoriImageList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 58%;
+}
+
+@media only screen and (max-width: 767px) {
+  .modaal-wrapper .modalInner .madoriImageWrap .madoriImageList {
+    width: 100%;
+  }
+}
+
+.modaal-wrapper .modalInner .madoriImageWrap .madoriImageList .madoriImage {
+  width: 27%;
+}
+
+.modaal-wrapper .modalInner .madoriImageWrap .madoriImageList .madoriImage img {
+  width: 100%;
+}
+
+.modaal-wrapper .modalInner .madoriImageWrap .caption {
+  margin-top: 3rem;
+  text-align: right;
+  font-size: 1.4rem;
+  color: #707070;
+}
+
+.modaal-wrapper .modalInner .contentWrap {
+  margin-top: 2.5rem;
+}
+
+.modaal-wrapper .modalInner .contentWrap .textWrap .text {
+  font-size: 1.4rem;
+  line-height: 1.9;
+}
+
+.pointListWrap .pointList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 767px) {
+  .pointListWrap .pointList {
+    display: block;
+    width: 100%;
+  }
+}
+
+.pointListWrap .pointList .point {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  margin-right: 4.25%;
+  width: 30.5%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .pointListWrap .pointList .point:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .pointListWrap .pointList .point:nth-of-type(-n + 3) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pointListWrap .pointList .point {
+    margin-top: 3rem;
+    width: 47.8%;
+  }
+  .pointListWrap .pointList .point:nth-of-type(even) {
+    margin-right: 0;
+  }
+  .pointListWrap .pointList .point:nth-of-type(-n + 2) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pointListWrap .pointList .point {
+    margin: 0 1.5rem;
+    width: 70vw !important;
+  }
+}
+
+.pointListWrap .pointList .point .imageWrap {
+  width: 100%;
+  height: 15.7rem;
+  border: 1px solid #aaa;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pointListWrap .pointList .point .imageWrap {
+    height: 16.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pointListWrap .pointList .point .imageWrap {
+    height: 43.4vw;
+  }
+}
+
+.pointListWrap .pointList .point .imageWrap .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pointListWrap .pointList .point .imageWrap .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pointListWrap .pointList .point .contentWrap {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .pointListWrap .pointList .point .contentWrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    height: calc(100% - 43.4vw - 5rem);
+  }
+}
+
+.pointListWrap .pointList .point .contentWrap .titleWrap {
+  display: flex;
+  align-items: center;
+  height: 3em;
+}
+
+.pointListWrap .pointList .point .contentWrap .titleWrap .pointNum {
+  margin-right: 1rem;
+}
+
+.pointListWrap .pointList .point .contentWrap .titleWrap .pointNum .num {
+  font-size: 2.8rem;
+  font-family: YuMincho, "Yu Mincho", serif;
+}
+
+.pointListWrap .pointList .point .contentWrap .titleWrap .title {
+  font-size: 1.7rem;
+  font-family: "Hannnari", serif;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 767px) {
+  .pointListWrap .pointList .point .contentWrap .titleWrap .title {
+    font-size: 2rem;
+  }
+}
+
+.pointListWrap .pointList .point .contentWrap .textWrap {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.pointListWrap .pointList .point .contentWrap .textWrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e8e8e8;
+}
+
+.pointListWrap .pointList .point .contentWrap .textWrap .text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.pointListWrap.pointSliderWrap {
+  margin: 8rem calc(50% - 50vw) 0;
+  width: 100vw;
+}
+
+.pointListWrap.pointSliderWrap .pointSlider {
+  position: relative;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.pointListWrap.pointSliderWrap .pointSlider .slick-arrow {
+  position: absolute;
+  top: 50%;
+}
+
+.pointListWrap.pointSliderWrap .pointSlider .slick-arrow.prev {
+  left: 2%;
+}
+
+.pointListWrap.pointSliderWrap .pointSlider .slick-arrow.next {
+  right: 2%;
+}
+
+.pointListWrap.pointSliderWrap .pointSlider .slick-dots {
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+#movie {
+  z-index: 2;
+  position: relative;
+}
+
+#movie .movieWrap {
+  width: 77.7vw;
+}
+
+@media only screen and (max-width: 767px) {
+  #movie .movieWrap {
+    width: 100vw;
+  }
+}
+
+#movie .movieWrap .movie video {
+  width: 100%;
+  height: 44vw;
+}
+
+@media only screen and (max-width: 767px) {
+  #movie .movieWrap .movie video {
+    height: 56vw;
+  }
+}
+
+#merit {
+  position: relative;
+}
+
+#merit::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: -20rem;
+  left: 0;
+  width: 100%;
+  height: 55rem;
+  background-color: #d0b174;
+}
+
+@media only screen and (max-width: 767px) {
+  #merit::before {
+    height: 40rem;
+  }
+}
+
+#merit .sectionInner {
+  z-index: 2;
+  position: relative;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem {
+  margin: 0 5rem;
+  width: 45rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .sliderItem {
+    margin: 0 1.5rem;
+    width: 70vw;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem.slick-current .contentWrap {
+  display: block;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .imageWrap {
+  width: 100%;
+  border: 2px solid #ebebeb;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1023px) {
+  #merit .meritSliderWrap .meritSlider .sliderItem .imageWrap {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .imageWrap .image {
+  width: 100%;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .imageWrap .image img {
+  width: 100%;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .contentWrap {
+  display: none;
+  margin-top: 3.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .sliderItem .contentWrap {
+    display: block;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .contentWrap .titleWrap {
+  text-align: center;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .contentWrap .titleWrap .title {
+  font-size: 3.6rem;
+  font-family: "Hannnari", serif;
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .sliderItem .contentWrap .titleWrap .title {
+    font-size: 2.8rem;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .contentWrap .textWrap {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#merit .meritSliderWrap .meritSlider .sliderItem .contentWrap .textWrap .text {
+  font-size: 1.4rem;
+  line-height: 2.1;
+}
+
+#merit .meritSliderWrap .meritSlider .slick-arrow {
+  position: absolute;
+  top: 53rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow {
+    top: 48rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow {
+    top: 34rem;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .slick-arrow.prev {
+  left: calc(58vw - 51rem);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow.prev {
+    left: 8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow.prev {
+    left: 2%;
+  }
+}
+
+#merit .meritSliderWrap .meritSlider .slick-arrow.next {
+  right: calc(58vw - 51rem);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow.next {
+    right: 8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #merit .meritSliderWrap .meritSlider .slick-arrow.next {
+    right: 2%;
+  }
+}
+
+#product .sectionContentWrap {
+  display: flex;
+}
+
+@media only screen and (min-width: 1280px) {
+  #product .sectionContentWrap {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #product .sectionContentWrap {
+    display: block;
+  }
+}
+
+#product .sectionContentWrap .thumbnailWrap {
+  flex: none;
+  width: 34.14vw;
+}
+
+@media only screen and (min-width: 1280px) {
+  #product .sectionContentWrap .thumbnailWrap {
+    width: 28.12vw;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #product .sectionContentWrap .thumbnailWrap {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap {
+  width: 100%;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider {
+  position: relative;
+  width: 100%;
+  border: 2px solid #e8e8e8;
+}
+
+@media only screen and (min-width: 1024px) {
+  #product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider:hover .slick-arrow {
+    opacity: 1;
+  }
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider .image img {
+  width: 100%;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider .slick-arrow {
+  position: absolute;
+  top: 45%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+@media only screen and (min-width: 1024px) {
+  #product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider .slick-arrow {
+    opacity: 0;
+  }
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider .slick-arrow.prev {
+  left: -5.5%;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailSLiderWrap .thumbnailSLider .slick-arrow.next {
+  right: -5.5%;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailNavSLiderWrap {
+  margin-top: 2.5rem;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailNavSLiderWrap .thumbnailNavSLider .image {
+  margin-right: 0.6rem;
+  width: 5.05vw;
+  max-width: 9.7rem;
+  border: 2px solid #e8e8e8;
+}
+
+@media only screen and (max-width: 1023px) {
+  #product .sectionContentWrap .thumbnailWrap .thumbnailNavSLiderWrap .thumbnailNavSLider .image {
+    width: 26.94vw;
+  }
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailNavSLiderWrap .thumbnailNavSLider .image.slick-current {
+  border: 3px solid #f2522e;
+}
+
+#product .sectionContentWrap .thumbnailWrap .thumbnailNavSLiderWrap .thumbnailNavSLider .image img {
+  width: 100%;
+}
+
+#product .sectionContentWrap .productInfoWrap {
+  margin-left: 9.5rem;
+  width: calc(100% - 34.14vw);
+  max-width: calc(100% - 56.5rem);
+}
+
+@media only screen and (min-width: 1280px) {
+  #product .sectionContentWrap .productInfoWrap {
+    width: calc(100% - 28.12vw);
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #product .sectionContentWrap .productInfoWrap {
+    margin: 4rem 0 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .titleWrap .title {
+  font-size: 3.6rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .textWrap {
+  margin-top: 2rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .textWrap .text {
+  line-height: 1.8;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap {
+  margin-top: 3rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price {
+  display: flex;
+  align-items: center;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price * {
+  font-family: "Hannari", serif;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price dt,
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price dd {
+  font-size: 2.2rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price dd {
+  margin-left: 1.5rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .price dd .priceNum {
+  font-size: 3.6rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .titleAndTextWrap .priceWrap .note {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #808080;
+}
+
+#product .sectionContentWrap .productInfoWrap .floorAreaDlListWrap {
+  margin-top: 5.5rem;
+}
+
+#product .sectionContentWrap .productInfoWrap .floorAreaDlListWrap .floorAreaDlList dl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+#product .sectionContentWrap .productInfoWrap .floorAreaDlListWrap .floorAreaDlList dl:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+#product .sectionContentWrap .productInfoWrap .floorAreaDlListWrap .floorAreaDlList dl dt {
+  width: 60%;
+}
+
+#product .sectionContentWrap .productInfoWrap .floorAreaDlListWrap .floorAreaDlList dl dd {
+  width: 40%;
+}
+
+#gallery .galleryWrap {
+  width: 80.5vw;
+  max-width: 140rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #gallery .galleryWrap {
+    width: calc(100vw - 5%);
+  }
+}
+
+#gallery .galleryWrap .photo {
+  width: 100%;
+}
+
+#gallery .galleryWrap .photo img {
+  width: 100%;
+}
+
+#contact > .inner {
+  max-width: 80rem;
+}
+
+#contact .accessWrap {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .accessWrap .accessInner {
+  position: relative;
+  padding: 2rem 5.5rem;
+  border: 1px solid #707070;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .accessWrap .accessInner {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+#contact .accessWrap .accessInner::before, #contact .accessWrap .accessInner::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: calc(100% - 5rem);
+  height: 4px;
+  background-color: #fff;
+  transform: translateX(-50%);
+}
+
+#contact .accessWrap .accessInner::before {
+  top: -2px;
+}
+
+#contact .accessWrap .accessInner::after {
+  bottom: -2px;
+}
+
+#contact .accessWrap .accessInner dl {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .accessWrap .accessInner dl {
+    display: block;
+  }
+}
+
+#contact .accessWrap .accessInner dl dt,
+#contact .accessWrap .accessInner dl dd {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .accessWrap .accessInner dl dt {
+    text-align: center;
+  }
+}
+
+#contact .accessWrap .accessInner dl dd {
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border-left: 1px solid #e8e8e8;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .accessWrap .accessInner dl dd {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0;
+    padding: 1rem 0 0;
+    border-top: 1px solid #e8e8e8;
+    border-left: 0;
+  }
+}
+
+#contact .accessWrap .text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+#contact .accessWrap + #measures {
+  margin-top: 8rem;
+}
+
+#contact #measures + #form {
+  margin-top: 8rem;
+}
+
+#contact .formWrap {
+  margin: 0 auto;
+}
+
+#contact .formWrap dl {
+  display: flex;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl {
+    display: block;
+  }
+}
+
+#contact .formWrap dl:first-of-type {
+  margin-top: 0;
+}
+
+#contact .formWrap dl dt {
+  padding-top: 1rem;
+  width: 30%;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl dt {
+    padding: 0;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
+
+#contact .formWrap dl dt .req {
+  display: inline-block;
+  margin-left: 1.5rem;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  background-color: #f2522e;
+}
+
+#contact .formWrap dl dd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl dd {
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+#contact .formWrap dl dd .wpcf7-list-item {
+  margin: 0;
+}
+
+#contact .formWrap dl dd .text {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+#contact .formWrap dl dd input[type="text"],
+#contact .formWrap dl dd input[type="tel"],
+#contact .formWrap dl dd input[type="email"],
+#contact .formWrap dl dd input[type="date"],
+#contact .formWrap dl dd select,
+#contact .formWrap dl dd textarea {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #efefef;
+  box-sizing: border-box;
+  outline-color: #f2522e;
+  appearance: none;
+}
+
+#contact .formWrap dl dd input[type="text"]::placeholder,
+#contact .formWrap dl dd input[type="tel"]::placeholder,
+#contact .formWrap dl dd input[type="email"]::placeholder,
+#contact .formWrap dl dd input[type="date"]::placeholder,
+#contact .formWrap dl dd select::placeholder,
+#contact .formWrap dl dd textarea::placeholder {
+  color: #808080;
+}
+
+#contact .formWrap dl dd input[type="text"].w-100,
+#contact .formWrap dl dd input[type="tel"].w-100,
+#contact .formWrap dl dd input[type="email"].w-100,
+#contact .formWrap dl dd input[type="date"].w-100,
+#contact .formWrap dl dd select.w-100,
+#contact .formWrap dl dd textarea.w-100 {
+  width: 100%;
+}
+
+#contact .formWrap dl dd .selectBox {
+  position: relative;
+}
+
+#contact .formWrap dl dd .selectBox::before {
+  content: "";
+  position: absolute;
+  top: 37%;
+  right: 1.65rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(135deg) translateY(-50%);
+}
+
+#contact .formWrap dl dd .selectBox select {
+  padding: 1.65rem 3.5rem 1.65rem 1.5rem;
+}
+
+#contact .formWrap dl dd .selectBox select::-ms-expand {
+  display: none;
+}
+
+#contact .formWrap dl dd input[type="checkbox"] {
+  display: none;
+}
+
+#contact .formWrap dl dd input[type="checkbox"]:checked + span::after {
+  opacity: 1;
+}
+
+#contact .formWrap dl dd input[type="checkbox"] + span {
+  position: relative;
+  margin-top: 1.3rem;
+  padding-left: 3rem;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl dd input[type="checkbox"] + span {
+    font-size: 1.5rem;
+  }
+}
+
+#contact .formWrap dl dd input[type="checkbox"] + span::before, #contact .formWrap dl dd input[type="checkbox"] + span::after {
+  content: "";
+  position: absolute;
+}
+
+#contact .formWrap dl dd input[type="checkbox"] + span::before {
+  top: 50%;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  transform: translateY(-50%);
+}
+
+#contact .formWrap dl dd input[type="checkbox"] + span::after {
+  top: 0.1rem;
+  left: 0.5rem;
+  width: 1rem;
+  height: 0.5rem;
+  border-bottom: 2px solid #f2522e;
+  border-left: 2px solid #f2522e;
+  transform: rotate(-45deg);
+  opacity: 0;
+}
+
+#contact .formWrap dl dd ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  #contact .formWrap dl dd ul li {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+}
+
+#contact .formWrap dl dd ul li:first-of-type {
+  margin-top: 0;
+}
+
+#contact .formWrap dl dd ul li .text {
+  margin-right: 2rem;
+  width: 15%;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  #contact .formWrap dl dd ul li .text {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
+
+#contact .formWrap dl dd ul li input {
+  width: 45%;
+}
+
+#contact .formWrap dl dd ul li .selectBox {
+  margin-left: 1.5rem;
+  width: 35%;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl dd ul li .selectBox {
+    width: 41%;
+  }
+}
+
+#contact .formWrap dl dd ul li .selectBox select {
+  width: 100%;
+}
+
+#contact .formWrap dl dd .note {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 2;
+  color: #808080;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap dl dd .note {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+}
+
+#contact .formWrap dl dd .wpcf7-not-valid-tip {
+  margin-top: 1rem;
+}
+
+#contact .formWrap dl dd .error {
+  margin-top: 1rem;
+}
+
+#contact .formWrap .textWrap {
+  margin-top: 3rem;
+}
+
+#contact .formWrap .textWrap .text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap .textWrap .text {
+    font-size: 1.5rem;
+  }
+}
+
+#contact .formWrap .btnWrap {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+#contact .formWrap .btnWrap .btn {
+  padding: 2rem;
+  width: 38.5rem;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact .formWrap .btnWrap .btn {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
+
+#footContactNav {
+  margin: 4rem calc(50% - 50vw) 0;
+  width: 100vw;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList {
+  display: flex;
+}
+
+@media only screen and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList {
+    flex-wrap: wrap;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList.column2 .footContactNav {
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  #footContactNav .footContactNavListWrap .footContactNavList.column2 .footContactNav {
+    width: 100%;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList.column3 .footContactNav {
+  width: calc(100% / 3);
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList.column3 .footContactNav {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footContactNav .footContactNavListWrap .footContactNavList.column3 .footContactNav {
+    width: 100%;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav {
+  position: relative;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav:first-of-type::before {
+  display: none;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 70%;
+  background-color: #c7c7c7;
+  transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 767px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav::before {
+    top: 0;
+    left: 50%;
+    width: 90%;
+    height: 1px;
+    transform: translateX(-50%);
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav a {
+  display: flex;
+  padding: 4.1vw;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1280px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav a {
+    padding: 5.2vw;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav a {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav a {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav .iconWrap .icon img {
+  width: 100%;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav .titleWrap .title {
+  font-size: 2.8rem;
+  font-family: "Shippori Mincho", serif;
+  line-height: 1.3;
+}
+
+@media only screen and (min-width: 1280px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav .titleWrap .title {
+    font-size: 3.6rem;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav .textWrap {
+  margin-top: 1rem;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav .textWrap .text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav .textWrap .text {
+    display: inline;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact a {
+  align-items: center;
+  justify-content: center;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact .iconWrap {
+  margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact .iconWrap {
+    margin-right: 1rem;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact .iconWrap .icon {
+  width: 3.64vw;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact .iconWrap .icon {
+    width: 5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footContactNav .footContactNavListWrap .footContactNavList .footContactNav.contact .iconWrap .icon {
+    width: 4rem;
+  }
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.tel a {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.tel .telNumWrap {
+  display: flex;
+  align-items: center;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.tel .iconWrap {
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.tel .iconWrap .icon {
+  width: 2.8rem;
+}
+
+#footContactNav .footContactNavListWrap .footContactNavList .footContactNav.tel .textWrap .text {
+  justify-content: center;
+}

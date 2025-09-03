@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+	<meta name='robots' content='noindex, nofollow' />
+
+	<title>耐久の家 | LPサンプル</title>
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="耐久の家 | LPサンプル" />
+	<meta property="og:url" content="durable.html" />
+	<meta property="og:site_name" content="LPサンプル" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/lp/lp-durable.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/modaal.js"></script>
+	<script src="js/jquery.matchHeight-min.js"></script>
+	<script src="js/function.js"></script>
+	<script src="js/lp/lp-common.js"></script>
+	<script src="js/lp/lp-durable.js"></script>
+
+</head>
+
+<body class="scrollTop">
+
+
+
+	<div id="headWrap" class="bg-cream">
+		<header id="header">
+
+			<div class="logoWrap">
+				<div class="logo">
+					<a href="durable.html" class="hoverOpacity">
+						<img src="images/lp/common/logo.svg" alt="ダミー（※本番ロゴきたらalt書き換え）" />
+					</a>
+				</div>
+			</div><!-- logoWrap -->
+
+
+
+			<div id="headNavWrap" class="spTabH">
+				<ul class="headNavList">
+					<li class="nav">
+						<a href="durable.html#space">
+							<p class="text">間取り</p>
+						</a>
+					</li>
+					<li class="nav">
+						<a href="durable.html#interior">
+							<p class="text">内観</p>
+						</a>
+					</li>
+					<li class="nav">
+						<a href="durable.html#vr">
+							<p class="text">体感</p>
+						</a>
+					</li>
+					<li class="nav">
+						<a href="durable.html#point">
+							<p class="text">機能</p>
+						</a>
+					</li>
+					<li class="nav">
+						<a href="durable.html#contact">
+							<p class="text">来場予約・オンライン相談</p>
+						</a>
+					</li>
+				</ul>
+			</div><!-- headNavWrap -->
+
+
+
+			<div class="btnWrap spTabH">
+				<a href="durable.html#contact" class="btn">来場予約・オンライン相談</a>
+			</div><!-- btnWrap -->
+
+		</header>
+		<!--header-->
+	</div>
+	<!--headWrap-->
+
+	<div id="globalNavWrap" class="pcH">
+		<nav id="globalNav">
+
+			<div class="globalNavList">
+				<a href="durable.html#space">間取り</a>
+				<a href="durable.html#interior">内観</a>
+				<a href="durable.html#vr">体感</a>
+				<a href="durable.html#point">機能</a>
+				<a href="durable.html#contact">来場予約・オンライン相談</a>
+			</div>
+
+		</nav>
+		<!--globalNav-->
+	</div>
+	<!--globalNavWrap-->
+
+	<div id="globalNavBtnWrap" class="pcH">
+		<div id="globalNavBtn"><a href="javascript:void(0);"><span></span></a></div>
+	</div><!-- globalNavBtnWrap -->
+
+
+	<div id="mainWrap">
+		<div id="main">
+
+
+
+
+
+			<div id="loading">
+				<div class="inner">
+
+					<div class="contentWrap">
+						<div class="titleWrap">
+							<h1 class="title">
+								<img src="images/lp/durable/kv/title.png" alt="DURABLE 耐久の家" />
+							</h1>
+						</div><!-- titleWrap -->
+
+						<div class="textWrap">
+							<p class="text">100年を考えた家</p>
+						</div><!-- textWrap -->
+					</div><!-- contentWrap -->
+
+
+				</div>
+			</div><!-- loading -->
+
+
+			<div id="kv">
+
+				<div class="contentWrap">
+					<div class="titleWrap">
+						<h1 class="title">
+							<img src="images/lp/durable/kv/title.png" alt="DURABLE 耐久の家" />
+						</h1>
+					</div><!-- titleWrap -->
+
+					<div class="textWrap">
+						<p class="text">100年を考えた家</p>
+					</div><!-- textWrap -->
+				</div><!-- contentWrap -->
+
+
+
+				<div class="kvImageWrap">
+					<div class="image">
+						<img src="images/lp/durable/kv/kv.png" alt="耐久の家" />
+					</div>
+				</div><!-- kvImageWrap -->
+
+
+
+				<div id="scroll">
+					<p class="text">Scroll</p>
+				</div><!-- scrcoll -->
+
+			</div><!-- kv -->
+
+
+
+
+
+			<div id="kvUnder">
+				<div class="galleryWrap">
+					<div class="image">
+						<img src="images/lp/durable/kv/img_gallery01.jpg" alt="" />
+					</div>
+					<div class="image">
+						<img src="images/lp/durable/kv/img_gallery02.jpg" alt="" />
+					</div>
+					<div class="image">
+						<img src="images/lp/durable/kv/img_gallery03.jpg" alt="" />
+					</div>
+				</div><!-- galleryWrap -->
+			</div><!-- kvUnder -->
+
+
+
+
+
+			<div id="pageContents">
+
+				<div id="space" class="section">
+					<div class="inner sectionInner pBNone">
+
+						<div class="sectionTitleWrap">
+							<h2 class="sectionTitle">SPACE</h2>
+							<p class="jaTitle">間取り</p>
+						</div><!-- sectionTitleWrap -->
+
+
+
+
+						<div class="sectionContentWrap">
+							<div class="spaceListWrap">
+								<div class="spaceWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/space/img_space01.jpg" alt="" />
+										</div>
+									</div><!-- imageWrap -->
+
+
+									<div class="contentWrap">
+										<div class="titleWrap">
+											<h3 class="title">
+												<span>高耐久な外壁</span>に<br />
+												守られた快適な住まい
+											</h3>
+										</div>
+
+										<div class="textWrap">
+											<p class="text">
+												外壁の金属サイディング板は色褪せにくく、<br class="spTabH" />通常の外壁に比べ2倍長持ちします。<br />
+												また、地震時における家への負担も少なく、<br class="spTabH" />安心して永く住み続けることを可能にしました。
+											</p>
+										</div>
+									</div><!-- contentWrap -->
+								</div><!-- spaceWrap -->
+
+
+
+								<div class="spaceWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/space/img_space02.png" alt="" />
+										</div>
+									</div><!-- imageWrap -->
+
+
+									<div class="contentWrap">
+										<div class="titleWrap">
+											<h3 class="title">
+												家族みんなが<br />
+												<span>快適に生活</span>できる空間
+											</h3>
+										</div>
+
+										<div class="textWrap">
+											<p class="text">
+												1階はLDKに加え、テレワークにも対応した<br class="spTabH" />スタディスペースを用意し、新しい生活様式に対応。<br />
+												2階には各個室のほか、生活における快適な家事動線を考慮した<br class="spTabH" />様々な間取りをご提案します。
+											</p>
+										</div>
+
+										<div class="btnWrap">
+											<a href="#modal_space" id="modal_spaceBtn" class="js-modaal linkBtn">詳しく見る</a>
+										</div><!-- btnWrap -->
+									</div><!-- contentWrap -->
+
+
+
+									<div id="modal_space" class="modalWrap">
+										<div class="closeBtn"></div>
+
+										<div class="modalInner inner">
+
+											<div class="imageWrap">
+												<div class="image">
+													<img src="images/lp/durable/space/img_modal01.png" alt="" />
+												</div>
+											</div>
+
+										</div>
+									</div><!-- modalWrap -->
+								</div><!-- spaceWrap -->
+							</div><!-- spaceListWrap -->
+
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- space -->
+
+
+
+
+
+				<div id="interior" class="section">
+					<div class="inner sectionInner">
+
+						<div class="sectionTitleWrap">
+							<h2 class="sectionTitle">INTERIOR</h2>
+							<p class="jaTitle">内観</p>
+						</div><!-- sectionTitleWrap -->
+
+
+
+
+						<div class="sectionContentWrap">
+							<div class="pickupInteriorWrap">
+								<div class="imageWrap">
+									<div class="image">
+										<img src="images/lp/durable/interior/img_pickup.jpg" alt="" />
+									</div>
+								</div><!-- imageWrap -->
+
+
+								<div class="contentWrap">
+									<div class="titleWrap">
+										<h3 class="title">
+											多目的リビングが<br />
+											暮らしの幅を実現する
+										</h3>
+									</div><!-- titleWrap -->
+
+									<div class="textWrap">
+										<p class="text">
+											ワークアウトやヨガもゲームでもカラダを動かす時代。<br />
+											リビングは、いわば家族の用途に合わせて変化する<br />フレキシブルなスタジオ。<br />
+											広く自由度の高いリビングが家族の暮らしの幅を広げます。
+										</p>
+									</div>
+								</div><!-- contentWrap -->
+							</div><!-- pickupInteriorWrap -->
+
+
+
+							<div class="interiorGalleryWrap">
+								<div id="interiorBg" class="contentWrap"></div>
+								<div id="interior01" class="contentWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior01.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div id="interior02" class="contentWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior02.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div id="interior03" class="contentWrap">
+									<div class="textWrap">
+										<p class="text">
+											細かなディテールまで<br />
+											こだわった<br />
+											<span>充実の生活空間</span>
+										</p>
+									</div>
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior03.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div id="interior04" class="contentWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior04.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div id="interior05" class="contentWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior05.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div id="interior06" class="contentWrap">
+									<div class="imageWrap">
+										<div class="image">
+											<img src="images/lp/durable/interior/img_interior06.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div><!-- interiorGalleryWrap -->
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- interior -->
+
+
+
+
+
+				<div id="vr" class="section">
+					<div class="inner sectionInner">
+
+						<div class="sectionTitleWrap">
+							<h2 class="sectionTitle">VR</h2>
+							<p class="jaTitle">体感</p>
+						</div><!-- sectionTitleWrap -->
+
+
+
+
+						<div class="sectionContentWrap">
+							<div class="vrInfoWrap">
+								<div class="vrWrap">
+									<div class="vr">
+										<iframe height='300px' width='400px' style='max-width:100%;'
+											src='https://spacely.co.jp/vrtown/durablehouse' frameborder='0' allowfullscreen='true'
+											mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>
+									</div><!-- bgImageWrap -->
+
+
+									<div class="contentWrap">
+										<div class="bgWrap"></div>
+										<div class="contentInner">
+											<div class="titleWrap">
+												<h3 class="title">
+													バーチャル展示場<span class="minText">で</span><br />
+													体感<span class="minText">してください</span>
+												</h3>
+											</div>
+
+											<div class="btnWrap">
+												<a href="javascript:void(0);" id="vrBtn" class="btn">
+													VRで見る
+												</a>
+											</div>
+										</div>
+									</div><!-- contentWrap -->
+								</div>
+							</div><!-- vrInfoWrap -->
+
+
+
+							<div class="toMovieWrap">
+								<div class="textWrap">
+									<p class="text">動画も公開中！</p>
+								</div><!-- textWrap -->
+
+
+								<div class="btnWrap">
+									<a href="images/lp/durable/movie/movie.mp4" id="modal_movieBtn" class="btn btn-border">MOVIEで見る</a>
+								</div>
+							</div><!-- toMovieWrap -->
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- vr -->
+
+
+
+
+
+				<div id="point" class="section">
+					<div class="inner sectionInner">
+
+						<div class="sectionTitleWrap">
+							<h2 class="sectionTitle">POINT</h2>
+							<p class="jaTitle">機能</p>
+						</div><!-- sectionTitleWrap -->
+
+
+
+
+						<div class="sectionContentWrap">
+							<div class="textWrap">
+								<p class="text">
+									デザイン・機能性の隅々まで厳選した標準仕様の推奨商品です。詳細につきましては、お問い合わせください。
+								</p>
+							</div><!-- textWrap -->
+
+
+
+							<div class="pointSliderWrap">
+								<div class="pointSlider">
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/outer_wall.jpg" alt="スタイリッシュな外壁" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">金属が持つ質感と美しさを追求した</p>
+												<h3 class="title">スタイリッシュな外壁</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/drainspout.jpg" alt="雨どい" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">建物にマッチする高いデザイン性</p>
+												<h3 class="title">雨どい</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/floor_tile.jpg" alt="フロアタイル" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">モルタル仕上げのようなマットな質感</p>
+												<h3 class="title">フロアタイル</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/wall_paper.jpg" alt="ウォールペーパー" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">アクセントカラーでお部屋に色どりを</p>
+												<h3 class="title">ウォールペーパー</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/interior_door.jpg" alt="インテリアドア" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">藍染による「上等の紺」</p>
+												<h3 class="title">インテリアドア</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/magnet-panel.jpg" alt="マグネットパネル" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">あなたらしい理想の空間を</p>
+												<h3 class="title">マグネットパネル</h3>
+											</div>
+										</div>
+									</div>
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<img src="images/lp/durable/point/pointSlider/stone_tile.jpg" alt="ストーンタイル" />
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<p class="catchText">空間の価値を劇的に変化させる</p>
+												<h3 class="title">ストーンタイル</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- pointSliderWrap -->
+
+
+
+							<div class="meritSliderWrap">
+								<div class="meritSlider">
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<div class="image">
+												<img src="images/lp/durable/point/meritSlider/01.jpg" alt="耐震等級3" />
+											</div>
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<h3 class="title">耐震等級3</h3>
+											</div>
+											<div class="textWrap">
+												<p class="text">
+													コストパフォーマンスに優れた<br class="pcH tabH" />地震に強い丈夫な構造。<br />
+													厳しい構造計算が作り出す真の耐震等級3です。
+												</p>
+											</div>
+										</div>
+									</div><!-- sliderItem -->
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<div class="image">
+												<img src="images/lp/durable/point/meritSlider/02.jpg" alt="断熱性能" />
+											</div>
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<h3 class="title">断熱性能</h3>
+											</div>
+											<div class="textWrap">
+												<p class="text">
+													それはまるで魔法瓶のような家。<br />
+													国が目指す次世代基準の<br class="pcH tabH" />UA値0.56w/m&sup2;・kの断熱。
+												</p>
+											</div>
+										</div>
+									</div><!-- sliderItem -->
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<div class="image">
+												<img src="images/lp/durable/point/meritSlider/03.jpg" alt="BIM設計" />
+											</div>
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<h3 class="title">BIM設計</h3>
+											</div>
+											<div class="textWrap">
+												<p class="text">
+													建物のあらゆる細部をCGパースでモデル化する<br />
+													BIMシステムを導入しています。
+												</p>
+											</div>
+										</div>
+									</div><!-- sliderItem -->
+									<div class="sliderItem">
+										<div class="imageWrap">
+											<div class="image">
+												<img src="images/lp/durable/point/meritSlider/04.jpg" alt="ガルバリウム屋根" />
+											</div>
+										</div>
+										<div class="contentWrap">
+											<div class="titleWrap">
+												<h3 class="title">ガルバリウム屋根</h3>
+											</div>
+											<div class="textWrap">
+												<p class="text">
+													耐久性のある金属屋根
+												</p>
+											</div>
+										</div>
+									</div><!-- sliderItem -->
+								</div>
+							</div><!-- meritSliderWrap -->
+
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- point -->
+
+
+
+
+
+
+
+
+				<div id="product" class="section">
+					<div class="inner minInner sectionInner">
+
+						<div class="sectionContentWrap">
+							<div class="thumbnailWrap">
+								<div id="outerWall_gy" class="outerWallThumbWrap">
+									<div class="thumbnailSliderWrap">
+										<div class="thumbnailSlider">
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo01.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo02.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo03.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo04.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo05.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo06.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo07.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo08.jpg" alt="" />
+											</div>
+										</div>
+									</div><!-- thumbnailSliderWrap -->
+
+
+									<div class="thumbnailNavSliderWrap">
+										<div class="thumbnailNavSlider">
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo01.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo02.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo03.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo04.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo05.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo06.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo07.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/gy/photo08.jpg" alt="" />
+											</div>
+										</div>
+									</div><!-- thumbnailNavSliderWrap -->
+								</div>
+
+
+								<div id="outerWall_bk" class="outerWallThumbWrap">
+									<div class="thumbnailSliderWrap">
+										<div class="thumbnailSlider">
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo01.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo02.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo03.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo04.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo05.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo06.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo07.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo08.jpg" alt="" />
+											</div>
+										</div>
+									</div><!-- thumbnailSliderWrap -->
+
+
+									<div class="thumbnailNavSliderWrap">
+										<div class="thumbnailNavSlider">
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo01.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo02.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo03.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo04.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo05.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo06.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo07.jpg" alt="" />
+											</div>
+											<div class="image">
+												<img src="images/lp/durable/product/bk/photo08.jpg" alt="" />
+											</div>
+										</div>
+									</div><!-- thumbnailNavSliderWrap -->
+								</div>
+
+							</div><!-- thumbnailWrap -->
+
+
+
+							<div class="productInfoWrap">
+								<div class="titleAndTextWrap">
+									<div class="titleWrap">
+										<h3 class="title">耐久の家</h3>
+									</div><!-- titleWrap -->
+
+									<div class="textWrap">
+										<p class="text">
+											100年を考えた家
+										</p>
+									</div><!-- textWrap -->
+
+									<div class="selectWrap">
+										<input id="outerWallSelect_gy" type="radio" name="outerWallSelect" checked>
+										<label for="outerWallSelect_gy">
+											<div class="selectLabel">
+												<div class="color"></div>
+												<p class="text">グレー</p>
+											</div>
+										</label>
+										<input id="outerWallSelect_bk" type="radio" name="outerWallSelect">
+										<label for="outerWallSelect_bk">
+											<div class="selectLabel">
+												<div class="color"></div>
+												<p class="text">ブラック</p>
+											</div>
+										</label>
+									</div>
+
+									<div class="priceWrap">
+										<dl class="price">
+											<dt>価格</dt>
+											<dd>
+												<span class="priceNum">2,200</span>万円 ～ <span class="priceNum">2,400</span>万円
+											</dd>
+										</dl>
+										<p class="note">※建物本体価格</p>
+									</div><!-- priceWrap -->
+								</div><!-- titleAndTextWrap -->
+
+
+								<div class="floorAreaDlListWrap">
+									<div class="floorAreaDlList">
+										<dl>
+											<dt>1階床面積</dt>
+											<dd>49.68m&sup2;</dd>
+										</dl>
+										<dl>
+											<dt>2階床面積</dt>
+											<dd>48.02m&sup2;</dd>
+										</dl>
+										<dl>
+											<dt>延床面積</dt>
+											<dd>97.71m&sup2;</dd>
+										</dl>
+										<dl>
+											<dt>建築面積</dt>
+											<dd>52.99m&sup2;</dd>
+										</dl>
+									</div>
+								</div>
+							</div><!-- productInfoWrap -->
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- product -->
+
+
+
+
+
+				<div id="gallery" class="section">
+					<div class="sectionInner">
+
+						<div class="sectionContentWrap">
+							<div class="galleryWrap">
+								<div class="photo">
+									<img src="images/lp/durable/gallery/photo.png" alt="" class="spH" />
+									<img src="images/lp/durable/gallery/photo_sp.png" alt="" class="pcH tabH" />
+								</div>
+							</div><!-- galleryWrap -->
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</div><!-- gallery -->
+
+
+
+
+
+				<section id="contact" class="section">
+					<div class="inner sectionInner pBNone">
+
+						<div class="sectionTitleWrap alignC">
+							<div class="logoWrap">
+								<div class="logo">
+									<img src="images/lp/common/logo.svg" alt="ダミー（※本番ロゴきたらalt書き換え）" />
+								</div>
+							</div><!-- logoWrap -->
+
+							<h2 class="sectionTitle">来場予約／<br class="pcH tabH" />オンライン相談</h2>
+						</div><!-- sectionTitleWrap -->
+
+
+
+
+						<div class="sectionContentWrap">
+
+							<div id="measures">
+								<div class="titleWrap">
+									<h3 class="title">新型コロナウイルス感染症<br class="pcH tabH" />対策について</h3>
+								</div><!-- titleWrap -->
+
+
+								<div class="contentWrap">
+									<div class="textWrap alignC">
+										<p class="text">
+											当社では、お客様と従業員の安全・安心と健康に配慮し、<br class="spH" />店舗において対策を行っております。
+										</p>
+									</div><!-- textWrap -->
+
+
+									<div class="measuresListWrap">
+										<ul class="measuresList">
+											<li class="measures">
+												<div class="imageWrap">
+													<div class="image">
+														<img src="images/lp/common/icon_web_contact_bk.svg" alt="" />
+													</div>
+												</div>
+												<div class="contentWrap">
+													<div class="titleWrap">
+														<h4 class="title"><span>WEB</span>でのご相談</h4>
+													</div>
+													<div class="textWrap">
+														<p class="text">WEB会議システムを導入しておりますので、対面せずにご相談が可能です。</p>
+													</div>
+												</div>
+											</li>
+											<li class="measures">
+												<div class="imageWrap">
+													<div class="image">
+														<img src="images/lp/common/icon_hand_wash_bk.svg" alt="" />
+													</div>
+												</div>
+												<div class="contentWrap">
+													<div class="titleWrap">
+														<h4 class="title"><span>店舗</span>でのご相談</h4>
+													</div>
+													<div class="textWrap">
+														<p class="text">
+															消毒や換気の徹底など、<br />
+															感染症対策をおこなっております。
+														</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div><!-- contentWrap -->
+							</div><!-- measures -->
+
+
+							<div id="footContactNav">
+								<div class="footContactNavListWrap">
+									<ul class="footContactNavList column2">
+										<li class="footContactNav contact">
+											<a href="durable-contact.html" class="hoverOpacity">
+												<div class="iconWrap">
+													<div class="icon">
+														<img src="images/lp/common/icon_smartphone_bk.svg" alt="" />
+													</div>
+												</div><!-- iconWrap -->
+
+												<div class="contentWrap">
+													<div class="titleWrap">
+														<h2 class="title">来場予約／<br class="pcH spH" />オンライン相談</h2>
+													</div><!-- titleWrap -->
+
+													<div class="textWrap">
+														<p class="text">メールでのお問い合わせはこちらから</p>
+													</div><!-- textWrap -->
+												</div><!-- contentWrap -->
+											</a>
+										</li>
+										<li class="footContactNav tel">
+											<a href="tel:0000000000" class="hoverOpacity">
+												<div class="telNumWrap">
+													<div class="iconWrap">
+														<div class="icon">
+															<img src="images/lp/common/icon_tel_bk.svg" alt="" />
+														</div>
+													</div><!-- iconWrap -->
+
+													<div class="titleWrap">
+														<p class="title">000-000-0000</p>
+													</div><!-- titleWrap -->
+												</div><!-- telNumWrap -->
+
+												<div class="textWrap alignC">
+													<p class="text">
+														<span>【ダミー】受付時間　9:00 ~ 18:00</span><br class="pcH" /><span>(土曜日・日曜日・祝日は休み)</span>
+													</p>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div><!-- footContactNav -->
+
+						</div><!-- sectionContentWrap -->
+
+					</div>
+				</section><!-- form -->
+
+
+
+			</div><!-- pageContents -->
+
+
+
+
+
+			<div id="spFootContactNav" class="pcH tabH">
+				<div class="btnWrap">
+					<a href="durable-contact.html" class="btn btn-orange">来場予約／オンライン相談</a>
+				</div>
+			</div><!-- spFootContactNav -->
+
+
+		</div><!-- main -->
+	</div><!-- mainWrap -->
+
+
+	<div id="footWrap">
+		<footer id="footer">
+
+			<div class="footInfoNavWrap">
+				<div class="minInner">
+					<div class="footInfoWrap">
+						<div class="logoWrap">
+							<div class="logo">
+								<a href="durable.html" class="hoverOpacity">
+									<img src="images/lp/common/logo_wh.svg" alt="ダミー（※本番ロゴきたらalt書き換え）" />
+								</a>
+							</div>
+						</div><!-- logoWrap -->
+
+						<div class="snsListWrap">
+							<ul class="snsList">
+								<li class="sns">
+									<a href="#" target="_blank" rel="noopener">
+										<img src="images/lp/common/icon_twitter_bk.svg" alt="twitter" />
+									</a>
+								</li>
+								<li class="sns">
+									<a href="#" target="_blank" rel="noopener">
+										<img src="images/lp/common/icon_line_bk.svg" alt="LINE" />
+									</a>
+								</li>
+								<li class="sns">
+									<a href="#" target="_blank" rel="noopener">
+										<img src="images/lp/common/icon_facebook_bk.svg" alt="Facebook" />
+									</a>
+								</li>
+								<li class="sns">
+									<a href="#" target="_blank" rel="noopener">
+										<img src="images/lp/common/icon_youtube_bk.svg" alt="YouTube" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!-- footInfoWrap -->
+
+
+
+					<div class="footNavWrap">
+						<ul class="footNavList">
+							<li class="nav">
+								<a href="durable.html#space" class="hoverOpacity">
+									<p class="text">間取り</p>
+								</a>
+							</li>
+							<li class="nav">
+								<a href="durable.html#interior" class="hoverOpacity">
+									<p class="text">内観</p>
+								</a>
+							</li>
+							<li class="nav">
+								<a href="durable.html#vr" class="hoverOpacity">
+									<p class="text">体感</p>
+								</a>
+							</li>
+							<li class="nav">
+								<a href="durable.html#point" class="hoverOpacity">
+									<p class="text">機能</p>
+								</a>
+							</li>
+							<li class="nav">
+								<a href="durable.html#contact" class="hoverOpacity">
+									<p class="text">来場予約・オンライン相談</p>
+								</a>
+							</li>
+						</ul>
+					</div><!-- footNavWrap -->
+				</div>
+
+
+
+				<div id="copyright">
+					<div class="inner alignC">
+						<p>Copyright &copy; Dummy All Rights Reserved.</p>
+					</div>
+				</div>
+				<!--copyright-->
+
+			</div><!-- footInfoWrap -->
+
+		</footer>
+		<!--footer-->
+	</div>
+	<!--footWrap-->
+
+</body>
+
+</html>

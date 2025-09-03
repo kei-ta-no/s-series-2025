@@ -1,0 +1,43 @@
+{
+	"name": "greenlandhanbai.co.jp",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build && html-beautify dist/**/*.html && esbuild src/assets/js/*.js --bundle --minify --outdir=dist/assets/js/",
+		"sharp:watch": "onchange \"src/assets/images/**/*.{png,jpg,jpeg,svg,gif}\" -- node sharp/sharp-watch.js {{changed}}",
+		"sharp:all": "node sharp/sharp-all.js",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^6.2.0"
+	},
+	"browserslist": [
+		"last 3 versions",
+		"> 5%",
+		"Firefox ESR",
+		"not dead"
+	],
+	"dependencies": {
+		"@splidejs/splide": "github:splidejs/splide",
+		"@splidejs/splide-extension-auto-scroll": "^0.5.3",
+		"@splidejs/splide-extension-intersection": "^0.2.0",
+		"autoprefixer": "^10.4.19",
+		"css-declaration-sorter": "^7.2.0",
+		"gsap": "^3.12.5",
+		"js-beautify": "^1.15.1",
+		"js-cookie": "^3.0.5",
+		"onchange": "^7.1.0",
+		"postcss": "^8.4.38",
+		"postcss-normalize-charset": "^7.0.0",
+		"postcss-sort-media-queries": "^5.2.0",
+		"sass": "^1.76.0",
+		"scroll-hint": "^1.2.5",
+		"scrolltrigger": "^1.0.1",
+		"sharp": "^0.33.3",
+		"simplebar": "^6.2.7",
+		"vite-plugin-handlebars": "^1.5.0",
+		"vite-plugin-static-copy": "^2.3.0"
+	}
+}

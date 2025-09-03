@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+/* pxをremに変換
+/*-------------------------*/
+@function rem($px, $viewport: 1512) {
+	@return calc($px * 1rem / 16);
+}
+
+@function vw($px, $viewport: 900) {
+	@return calc($px / $viewport * 100 * 1vw);
+}
+
+//f.px2vw(52)
+//f.px2rem(20)

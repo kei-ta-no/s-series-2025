@@ -1,0 +1,11 @@
+@use './_mixin.scss' as m;
+@use './functions' as f;
+
+:root {
+	--base-vw: 390;
+	--red: #ea5a3f;
+
+	@include m.pc {
+		--base-vw: 1440;
+	}
+}

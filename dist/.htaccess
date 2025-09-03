@@ -1,0 +1,10 @@
+# /home/users/2/lolipop.jp-dp13180951/web/rakurakuauto.com
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+AuthType Basic
+AuthName "test-auth"
+AuthUserFile /home/users/2/lolipop.jp-dp13180951/web/rakurakuauto.com/.htpasswd
+require valid-user

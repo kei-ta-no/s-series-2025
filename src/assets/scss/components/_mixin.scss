@@ -1,0 +1,55 @@
+@mixin common {
+	@content;
+}
+
+@mixin pc {
+	@media screen and (min-width: 768px), print {
+		@content;
+	}
+}
+
+@mixin sp {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin poppins {
+	font-family: 'Poppins', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin stix {
+	font-family: 'STIX Two Text', serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@mixin gramond {
+	font-family: 'EB Garamond', serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin notoserif {
+	font-family: 'Noto Serif JP', serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@mixin zenkaku {
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin oswald {
+	font-family: 'Oswald', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+}
