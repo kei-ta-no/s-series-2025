@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@use './components/functions.scss' as f;
+@use './components/mixin.scss' as m;
+
+.natural {
+	opacity: 0;
+}
+
+.lBody {
+	.pHeader {
+		@include m.sp {
+			&__logo {
+				width: f.vw(260);
+			}
+		}
+		@include m.pc {
+			&__logo {
+				width: f.rem(160);
+			}
+		}
+	}
+
+	.pIntro {
+		@include m.sp {
+			&__heading {
+				width: f.vw(268);
+			}
+		}
+
+		@include m.pc {
+			&__title {
+				padding: 0 0 0 f.vw(12);
+			}
+
+			&__heading {
+				translate: f.rem(-10) 0;
+				width: f.rem(248);
+			}
+		}
+	}
+
+	.pVideo__cover::before {
+		display: none;
+	}
+
+	.pWall {
+		@include m.sp {
+			&__text {
+				margin: f.vw(48) 0 0;
+			}
+
+			&__image {
+				padding: 0 f.vw(138);
+				margin: f.vw(28) 0 0;
+			}
+		}
+
+		@include m.pc {
+			margin: f.rem(120) 0 0;
+
+			&__image {
+				margin: f.rem(28) auto 0;
+			}
+		}
+	}
+
+	.pWindow {
+		@include m.sp {
+			margin: f.vw(100) 0 0;
+
+			&__text {
+				margin: f.vw(48) 0 0;
+			}
+
+			&__image {
+				padding: 0 f.vw(138);
+				margin: f.vw(48) 0 0;
+			}
+		}
+	}
+}

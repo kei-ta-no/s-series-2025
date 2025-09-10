@@ -1,5 +1,6 @@
 import Splide from '@splidejs/splide';
 import '@splidejs/splide/css/core';
+import './contact.js';
 
 let modaal_slide;
 let _header = true;
