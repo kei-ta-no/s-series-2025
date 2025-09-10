@@ -6,7 +6,7 @@
 .pHeader {
 	@include m.sp {
 		&__logo {
-			width: f.vw(160);
+			width: f.vw(260);
 		}
 	}
 	@include m.pc {
@@ -18,13 +18,8 @@
 
 .pIntro {
 	@include m.sp {
-		&__title {
-			padding: 0 0 0 f.vw(20);
-		}
-
 		&__heading {
-			translate: f.vw(-22) 0;
-			width: f.vw(248);
+			width: f.vw(268);
 		}
 	}
 
