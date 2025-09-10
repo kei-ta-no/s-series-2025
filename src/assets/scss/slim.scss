@@ -40,6 +40,10 @@
 	}
 }
 
+.pVideo__cover::before {
+	display: none;
+}
+
 .pWall {
 	@include m.sp {
 		&__text {

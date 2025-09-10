@@ -82,6 +82,7 @@ function send($post) {
     $admins = ["info@check-dev.jp"];
 
     //お名前*
+    $fhomename = htmlspecialchars($post["fhomename"], ENT_QUOTES, "UTF-8");
     $fname01 = htmlspecialchars($post["fname01"], ENT_QUOTES, "UTF-8");
     $fname02 = htmlspecialchars($post["fname02"], ENT_QUOTES, "UTF-8");
     $fyomi01 = htmlspecialchars($post["fyomi01"], ENT_QUOTES, "UTF-8");

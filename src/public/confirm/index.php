@@ -70,6 +70,7 @@ if(empty($post)) {
                 <div class="pForm isConfirm">
                     <form action="../thanks/" class="js-form" method="post">
                         <div style="display: none !important; ">
+                            <input type="hidden" name="fhomename" value="<?php echo $_POST["fhomename"]; ?>" />
                             <input type="hidden" name="fname01" value="<?php echo $_POST["fname01"]; ?>" />
                             <input type="hidden" name="fname02" value="<?php echo $_POST["fname02"]; ?>" />
                             <input type="hidden" name="fyomi01" value="<?php echo $_POST["fyomi01"]; ?>" />
