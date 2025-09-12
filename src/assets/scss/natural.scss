@@ -40,8 +40,27 @@
 		}
 	}
 
+	.pIntro__title--ja {
+		@include m.sp {
+			font-size: f.vw(48);
+		}
+		@include m.pc {
+			font-size: f.rem(48);
+		}
+	}
+
+	.pIntro.isCenter .pIntro__text {
+		@include m.sp {
+			font-size: f.vw(30);
+		}
+		@include m.pc {
+			font-size: f.rem(30);
+		}
+	}
+
 	.pVideo__cover::before {
-		display: none;
+		background-color: #000;
+		opacity: 0.6;
 	}
 
 	.pWall {
