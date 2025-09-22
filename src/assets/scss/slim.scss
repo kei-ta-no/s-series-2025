@@ -11,12 +11,12 @@
 	.pHeader {
 		@include m.sp {
 			&__logo {
-				width: f.vw(130);
+				width: f.vw(111);
 			}
 		}
 		@include m.pc {
 			&__logo {
-				width: f.rem(100);
+				width: f.rem(111);
 			}
 		}
 	}

@@ -11,12 +11,12 @@
 	.pHeader {
 		@include m.sp {
 			&__logo {
-				width: f.vw(260);
+				width: f.vw(209);
 			}
 		}
 		@include m.pc {
 			&__logo {
-				width: f.rem(160);
+				width: f.rem(209);
 			}
 		}
 	}
@@ -24,13 +24,13 @@
 	.pIntro {
 		@include m.sp {
 			&__heading {
-				width: f.vw(268);
+				width: f.vw(388);
 			}
 		}
 
 		@include m.pc {
 			&__heading {
-				width: f.rem(248);
+				width: f.rem(388);
 			}
 		}
 	}
