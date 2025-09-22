@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@use './components/functions.scss' as f;
+@use './components/mixin.scss' as m;
+
+.garage {
+	opacity: 0;
+}
+
+.lBody {
+	.pHeader {
+		@include m.sp {
+			&__logo {
+				width: f.vw(216);
+			}
+		}
+		@include m.pc {
+			&__logo {
+				width: f.rem(216);
+			}
+		}
+	}
+
+	.pIntro {
+		@include m.sp {
+			&__title {
+				padding: 0 0 0 f.vw(20);
+			}
+
+			&__heading {
+				translate: f.vw(-22) 0;
+				width: f.vw(405);
+			}
+		}
+
+		@include m.pc {
+			&__title {
+				padding: 0 0 0 f.vw(12);
+			}
+
+			&__heading {
+				translate: f.rem(-10) 0;
+				width: f.rem(405);
+			}
+		}
+	}
+
+	.pIntro__title--ja {
+		@include m.sp {
+			font-size: f.vw(48);
+		}
+		@include m.pc {
+			font-size: f.rem(48);
+		}
+	}
+
+	.pIntro.isCenter .pIntro__text {
+		@include m.sp {
+			font-size: f.vw(30);
+		}
+		@include m.pc {
+			font-size: f.rem(30);
+		}
+	}
+
+	.pVideo__cover::before {
+		background-color: #000;
+		opacity: 0.6;
+	}
+
+	.pWall {
+		@include m.sp {
+			&__text {
+				margin: f.vw(48) 0 0;
+			}
+
+			&__image {
+				padding: 0 f.vw(138);
+				margin: f.vw(28) 0 0;
+			}
+		}
+
+		@include m.pc {
+			margin: f.rem(120) 0 0;
+
+			&__image {
+				margin: f.rem(28) auto 0;
+			}
+		}
+	}
+
+	.pWindow {
+		@include m.sp {
+			margin: f.vw(100) 0 0;
+
+			&__text {
+				margin: f.vw(48) 0 0;
+			}
+
+			&__image {
+				padding: 0 f.vw(138);
+				margin: f.vw(48) 0 0;
+			}
+		}
+	}
+}
