@@ -15,6 +15,7 @@
 			}
 		}
 		@include m.pc {
+			padding-top: 0.8rem;
 			&__logo {
 				width: f.rem(304);
 			}
